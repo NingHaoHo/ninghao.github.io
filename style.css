@@ -1,0 +1,109 @@
+/*backgroud img*/
+.background {
+    background: url(./leaves.png) 
+
+}
+/*body part*/
+body {
+    font-family: "Text Me One", 'Arial', 'Helvetica', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;   
+    padding: 10px;
+    text-align: left; 
+}
+
+h1 {
+    font-family: "Merriweather", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    padding:auto;
+    max-width: 100%;
+    font-size: 40px;
+    color: #ff4000;
+    }
+header {
+    font-size: 20pt;
+    color:#b869de;  
+} 
+
+#profile-pic-div {
+    text-align: center;
+}
+
+.profile-picture{
+    right: 45%;
+    top: 45%;
+    border:violet solid 1px;
+    border-radius: 160px; 
+              
+}
+.profilepic{
+    width: 175px;
+    height: 220px; 
+    border: black solid 1px;
+    border-radius: 198px;
+    position: absolute; 
+    display: block;
+    right: 30px;
+    float: left;
+}
+.space{
+    width: 700px;
+    height: 250px;
+    position: relative;
+    display:;
+}
+
+section {
+    border: #99ffbb dashed 3px; 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px; 
+}
+
+h3{
+    font-family:"Text Me One", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif; 
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 26pt;
+}
+/*only section text part*/
+.textonly{
+    background-color: rgba(223, 213, 213, 0.3);
+    font-size: 18pt;
+}
+/*back to top*/
+.topbuttom{
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    font-family: "Merriweather", "Cochin", "Georgia", "Times", 'Times New Roman', serif;
+    padding: 5px;
+    font-size: 26px; 
+}
+
+/*picture css*/
+.block-1{
+    width: 900px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+.block-2 {
+    display: block; 
+        
+}
+
+.photolink img{ 
+    padding: 5px;
+    border-radius: 30%;
+
+}
+/*video link*/
+.video{
+    text-align: center;   
+}

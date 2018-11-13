@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url(./gaming-pattern.png)
+} 
+.boxesborder {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 50px auto; 
+}
+.boxes {
+    width: 33%;
+    height: 33%; 
+    text-align: center; 
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    border: black solid 1px;
+    font-size: 120px; 
+    border-radius: 20px; 
+}
+button {
+    display: block;
+    text-align: center; 
+    margin: 20px auto; 
+}
+#turn {
+    width: 100%;
+    display: block; 
+    text-align: center; 
+    font-size: 30px; 
+    background-color: rgb(157, 195, 229);
+    border-radius: 10px;  
+}
+.win {
+    background-color: lightskyblue;
+}
